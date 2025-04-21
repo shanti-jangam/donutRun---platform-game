@@ -1,112 +1,104 @@
-# DonutRun - A Platform Game with Kaboom.js
 
-A Mario-style platformer game built using Kaboom.js, featuring multiple levels, enemies, and coin collection mechanics.
+<div align="center">
 
-## 🛠️ Technical Stack
+# DonutRun
 
-- **Game Engine**: Kaboom.js
-- **Language**: JavaScript (ES6+)
-- **Asset Loading**: Custom asset loader
-- **Sound Management**: Custom sound manager
-- **UI System**: Custom UI manager
+A platform game built with Kaboom.js that combines classic platformer mechanics with modern web technologies. Players navigate through three distinct environments while collecting coins and avoiding enemies.
 
-## 🎮 Game Features
+</div>
 
-- Multiple levels with increasing difficulty
-- Coin collection system
-- Lives system with respawn mechanics
-- Various enemies (Fish, Spiders, Birds)
-- Different environments (Forest, Castle, Sky)
-- Smooth character animations
-- Background music and sound effects
-- Responsive controls
-
-## 🎯 Gameplay
-
-- Use arrow keys for movement (←, →)
-- Space bar to jump
-- Collect all coins to progress to next level
-- Avoid enemies and obstacles
-- You have 3 lives to complete each level
-
-## 📁 Project Structure
-project/
-├── assets/ # Game sprites and images
-├── content/ # Level layouts and configurations
-├── entities/ # Game characters and objects
-├── libs/ # Kaboom.js library
-├── sounds/ # Game audio files
-├── utils/ # Helper functions and managers
-├── index.html # Entry point
-└── main.js # Game initialization
+<img width="220" alt="Screenshot 2025-04-21 at 5 14 23 PM" src="https://github.com/user-attachments/assets/4f9ff03f-f7d3-4d33-86fd-0b0851a49baf" />
 
 
-## 🚀 Getting Started
+## About The Project
 
-1. Clone the repository:
+DonutRun is a web-based platformer that features multiple levels with increasing difficulty. Each level presents unique challenges through different environments - a forest setting, a castle dungeon, and a sky realm. The game implements core platformer mechanics including coin collection, enemy avoidance, and precise jumping challenges.
+
+### Key Features
+
+* Progressive difficulty across three themed environments
+* Dynamic enemy behavior patterns
+* Coin collection system with level progression
+* Lives system with strategic respawn points
+* Responsive controls with coyote-time jumping mechanics
+* Ambient sound design with environment-specific audio
+* Real-time score tracking and life counter
+
+## Technical Implementation
+
+### Built With
+
+* Kaboom.js - Core game engine
+* JavaScript (ES6+) - Game logic and mechanics
+* Custom asset management system
+* Modular component architecture
+
+### Core Components
+
+* **Player System**: Implements double-jumping, coin collection, and enemy collision
+* **Level Management**: Handles level progression and environment transitions
+* **Enemy AI**: Controls enemy movement patterns and interaction
+* **Camera System**: Dynamic camera following with smooth transitions
+* **Sound Management**: Handles ambient audio and sound effects
+
+## Getting Started
+
+### Prerequisites
+
+* A modern web browser
+* Local development server (e.g., Live Server)
+
+## Game Controls
+
+* **Left/Right Arrows**: Horizontal movement
+* **Space**: Jump
+* **Down Arrow**: Drop through platforms
+* **Enter**: Menu navigation
+
+## Level Design
+
+Each level introduces new challenges and mechanics:
+
+* **Forest Level**: Introduces basic movement and coin collection
+* **Castle Level**: Adds moving platforms and more complex enemy patterns
+* **Sky Level**: Challenges players with precise jumping and timing
+
+## Development Process
+
+The game was developed with a focus on smooth gameplay mechanics and responsive controls. Special attention was given to:
+
+* Implementing precise collision detection
+* Creating smooth character animations
+* Balancing difficulty progression
+* Optimizing performance for web browsers
+
+### Installation
+
+1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/yourusername/DonutRun.git
 ```
 
-2. Install dependencies:
+2. Navigate to the project directory
 ```bash
-npm install
+cd DonutRun
 ```
 
-3. Start the development server:
+3. Start a local development server
 ```bash
-npm start
+# Using Live Server or similar
+live-server
 ```
 
-4. Open your browser and navigate to `http://localhost:5500`
+## Future Enhancements
 
-## 🎮 Controls
+* Additional levels with new themes
+* Power-up system
+* Local high score system
+* Mobile touch controls
+* Customizable character skins
 
-- **←**: Move left
-- **→**: Move right
-- **↓**: Drop through platforms
-- **Space**: Jump
-- **Enter**: Start game/Confirm
+## Acknowledgments
 
-## 🔧 Game Components
-
-### Player
-- Double jump capability
-- Coin collection
-- Lives system
-- Collision detection with enemies
-
-### Levels
-- Unique backgrounds
-- Different enemy types
-- Platform layouts
-- Coin placement
-
-### UI Elements
-- Lives counter
-- Coin counter
-- Menu screens
-- Control instructions
-
-## 🎵 Sound System
-
-- Background music for each level
-- Sound effects for:
-  - Jumping
-  - Coin collection
-  - Enemy hits
-  - Menu navigation
-
-## 🛠️ Development
-
-### Adding New Levels
-1. Create a new level layout in `content/levelX/`
-2. Add level configuration
-3. Create level mappings
-4. Register the level in `main.js`
-
-### Adding New Enemies
-1. Create enemy sprite
-2. Add enemy class in `entities/`
-3. Configure enemy behavior
-4. Add to level configuration
+This game was developed following the tutorial series by JSLegendDev on YouTube. Special thanks to JSLegendDev for the excellent tutorial "Building a Mario-Style Platformer with Kaboom.js" which provided the foundation and guidance for this project.
+[Tutorial Link](https://www.youtube.com/@JSLegendDev)
