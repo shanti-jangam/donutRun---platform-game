@@ -5,9 +5,11 @@
 
 A platform game built with Kaboom.js that combines classic platformer mechanics with modern web technologies. Players navigate through three distinct environments while collecting coins and avoiding enemies.
 
-</div>
+<p align="center">
+  <img width="600" src="https://github.com/user-attachments/assets/4f9ff03f-f7d3-4d33-86fd-0b0851a49baf" alt="DonutRun Game Screenshots">
+</p>
 
-<img width="220" alt="Screenshot 2025-04-21 at 5 14 23 PM" src="https://github.com/user-attachments/assets/4f9ff03f-f7d3-4d33-86fd-0b0851a49baf" />
+</div>
 
 
 ## About The Project
